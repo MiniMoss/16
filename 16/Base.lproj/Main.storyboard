@@ -21,58 +21,58 @@
                                 <rect key="frame" x="127" y="67" width="120" height="120"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K8y-cA-3xt">
-                                <rect key="frame" x="275" y="274" width="80" height="80"/>
+                                <rect key="frame" x="275" y="259" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="LOMO摄影"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31S-El-Lk4">
-                                <rect key="frame" x="20" y="274" width="80" height="80"/>
+                                <rect key="frame" x="20" y="259" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="标志"/>
+                                <connections>
+                                    <segue destination="Rjo-od-bBC" kind="show" id="sx3-8J-eXF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXH-8q-ojg">
-                                <rect key="frame" x="147" y="274" width="80" height="80"/>
+                                <rect key="frame" x="147" y="259" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="菜单"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bre-fh-gDc">
-                                <rect key="frame" x="275" y="379" width="80" height="80"/>
+                                <rect key="frame" x="275" y="364" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="品牌"/>
-                                <connections>
-                                    <segue destination="yu0-lX-MLB" kind="show" id="rMW-8p-pEl"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uR8-gA-WOz">
-                                <rect key="frame" x="20" y="379" width="80" height="80"/>
+                                <rect key="frame" x="20" y="364" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="名片"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hw-gY-9iZ">
-                                <rect key="frame" x="147" y="379" width="80" height="80"/>
+                                <rect key="frame" x="147" y="364" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="字体"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fza-mR-XVj">
-                                <rect key="frame" x="275" y="485" width="80" height="80"/>
+                                <rect key="frame" x="275" y="470" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="插画"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k74-3g-FbJ">
-                                <rect key="frame" x="20" y="485" width="80" height="80"/>
+                                <rect key="frame" x="20" y="470" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="红包"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTC-Qe-rvh">
-                                <rect key="frame" x="147" y="485" width="80" height="80"/>
+                                <rect key="frame" x="147" y="470" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="印刷品"/>
@@ -91,33 +91,49 @@
             </objects>
             <point key="canvasLocation" x="509.5" y="489.5"/>
         </scene>
-        <!--Projects View Controller-->
-        <scene sceneID="z7e-7o-8Tk">
+        <!--Projects Collection View Controller-->
+        <scene sceneID="4PR-YZ-IfT">
             <objects>
-                <viewController id="yu0-lX-MLB" customClass="ProjectsViewController" customModule="_6" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="tem-vc-63i"/>
-                        <viewControllerLayoutGuide type="bottom" id="SEm-xo-dI8"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dXp-Bg-3aB">
+                <collectionViewController id="Rjo-od-bBC" customClass="ProjectsCollectionViewController" customModule="_6" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="rbJ-jp-RtI">
                         <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BMT-Jn-L1A">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="XVb-Za-e7h">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="Rjo-od-bBC" id="6HR-FQ-sN2"/>
+                            <outlet property="delegate" destination="Rjo-od-bBC" id="O9s-6q-CCe"/>
+                        </connections>
+                    </collectionView>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="ngo-ip-WdZ">
-                        <barButtonItem key="leftBarButtonItem" title="&lt;&lt;" id="7jR-EV-wig">
+                    <navigationItem key="navigationItem" id="3cQ-Yw-2Jl">
+                        <barButtonItem key="leftBarButtonItem" title="&lt;&lt;" id="9ly-VZ-Ace">
                             <connections>
-                                <action selector="backBtn:" destination="yu0-lX-MLB" id="zLf-PR-brG"/>
+                                <action selector="backBtn:" destination="Rjo-od-bBC" id="p8r-pr-igb"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nET-qC-ZOI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2mk-z9-DIz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1066.5" y="489.5"/>
+            <point key="canvasLocation" x="1023.5" y="489.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qgo-IL-XA5">
